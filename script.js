@@ -15,4 +15,4 @@ function Movies() {
       document.getElementById("Title-4").innerHTML = data.Writer;
       document.getElementById("Title-5").innerHTML = data.Actors;
     }
-  }
+  } 
