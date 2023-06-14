@@ -4,7 +4,7 @@ function Movies() {
 
     getapi(ApiUrl);
     async function getapi(url) {
-      let response = await fetch(url);
+      let response = await fetch(ApiUrl);
       var data = await response.json();
       show(data);
     }
